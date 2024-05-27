@@ -1,7 +1,7 @@
 resource "helm_release" "this" {
-  name       = "testapplication"
+  name      = var.name
   namespace = "testapp"
-  chart      = "${path.module}/charts/application"
-  wait        = false
+  chart     = "${path.module}/charts/application"
+  wait      = false
 }
 
