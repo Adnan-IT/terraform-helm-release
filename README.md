@@ -6,5 +6,6 @@
 module "release" {
   source  = "Adnan-IT/release/helm"
   name = "testapplication"
+  namespace = "testapp"
 }
 ```
