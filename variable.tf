@@ -6,6 +6,6 @@ variable "name" {
 
 variable "namespace" {
   description = "please enter a namespace name"
-  type = "string"
+  type = string
   default = ""
 }
