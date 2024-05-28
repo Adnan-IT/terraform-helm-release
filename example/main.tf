@@ -4,7 +4,7 @@ module "app" {
   namespace = "testapp"
   values_yaml = <<EOF
 
-  replicaCount: 3
+  replicaCount: ${var.replicaCount}
 image:
   repository: nginx
   
