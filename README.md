@@ -7,5 +7,7 @@ module "release" {
   source  = "Adnan-IT/release/helm"
   name = "testapplication"
   namespace = "testapp"
+   values_yaml = <<EOF
+  EOF
 }
 ```
